@@ -1,6 +1,8 @@
+import styles from './Button.module.css';
+
 function MyButton() {
   return (
-    <button>
+    <button className={`${styles.buttonShape} ${styles.buttonColor}`}>
       ボタン
     </button>
   );
