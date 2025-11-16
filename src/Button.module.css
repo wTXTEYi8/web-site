@@ -1,11 +1,16 @@
-.buttonShape {
+.shape {
   padding: 8px 16px;
   border-radius: 4px;
   border: none;
   font-size: 16px;
+  border-radius: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
 }
 
-.buttonColor {
+.color {
 	background-color: blue;
 	color: white;
 }

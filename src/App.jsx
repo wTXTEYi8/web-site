@@ -1,8 +1,8 @@
-import styles from './Button.module.css';
+import buttonStyles from './Button.module.css';
 
 function MyButton() {
   return (
-    <button className={`${styles.buttonShape} ${styles.buttonColor}`}>
+    <button className={`${buttonStyles.shape} ${buttonStyles.color}`}>
       ボタン
     </button>
   );
@@ -16,4 +16,3 @@ export default function MyApp() {
     </div>
   );
 }
-
